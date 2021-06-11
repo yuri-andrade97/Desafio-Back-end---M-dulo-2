@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const fsp = fs.promises;
 
-const ARQUIVO = 'banco/db.json';
+const ARQUIVO = 'banco/data.json';
 const CAMINHO_BANCO = 'banco';
 
 const lerArquivo = async () => {

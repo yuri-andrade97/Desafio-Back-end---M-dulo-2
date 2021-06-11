@@ -84,5 +84,12 @@
       "estoque": 0,
       "categoria": "Azeite"
     }
-  ]
+  ],
+  "carrinho": {
+    "produtos": [],
+    "subtotal": 0,
+    "dataDeEntrega": null,
+    "valorDoFrete": 0,
+    "totalAPagar": 0
+  }
 }
