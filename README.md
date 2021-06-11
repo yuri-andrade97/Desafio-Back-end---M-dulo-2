@@ -21,6 +21,7 @@ Seu papel é construir uma RESTful API que permita:
 - Finalizar a venda (CHECKOUT)
 - Manipular estoque subtraindo ou adicionando quantidades de cada produto
 
+## Dicas:
 
 ### Manipulação de Arquivos (Biblioteca fs do NodeJS)
 
@@ -33,6 +34,8 @@ Veja o exemplo de como usar as funções:
 * [Ler do Arquivo:](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/blob/master/exemploLerDoArquivo.js) 
 * [Escrever no arquivo](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/blob/master/exemploEscreverNoArquivo.js)
 
+### Estrutura base
+Na pasta [cubos-checkout](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/tree/master/cubos-checkout) deixamos a estrutura base para você iniciarem o projeto.
 
 
 ## Requisitos obrigatórios
