@@ -25,7 +25,7 @@ Seu papel é construir uma RESTful API que permita:
 
 ### Manipulação de Arquivos (Biblioteca fs do NodeJS)
 
-- Todas operações (ao adicionar, remover, atualizar um produto no carrinho) devem ser salvas no arquivo `data.json`, para facilitar nós iremos te dar um arquivo que faz a leitura e escrita no arquivo `data.json`, ou seja, você precisará simplesmente usar o código que já existe para fazer isso.
+- Todas operações (ao adicionar, remover, atualizar um produto no carrinho) devem ser salvas no arquivo `data.json`. Para facilitar, nós iremos te dar um arquivo que faz a leitura e escrita no arquivo `data.json`, ou seja, você precisará simplesmente usar o código que já existe para fazer isso.
 
 Para usar essas duas funções (escreverNoArquivo e lerArquivo), você precisa importar para o seu projeto o arquivo [bibliotecaFS.js](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/blob/master/bibliotecaFS.js)
 
@@ -35,7 +35,7 @@ Veja o exemplo de como usar as funções:
 * [Escrever no arquivo](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/blob/master/exemploEscreverNoArquivo.js)
 
 ### Estrutura base
-Na pasta [cubos-checkout](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/tree/master/cubos-checkout) deixamos a estrutura base para você iniciarem o projeto.
+Na pasta [cubos-checkout](https://github.com/cubos-academy/desafio-backend-modulo2-noturno/tree/master/cubos-checkout) deixamos a estrutura base para você iniciar o projeto.
 
 
 ## Requisitos obrigatórios
