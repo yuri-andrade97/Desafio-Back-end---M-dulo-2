@@ -9,7 +9,6 @@ const data = require('./data/data.json')
 app.use(express.json());
 
 app.get('/produtos', (req, res) => {
-    console.log(data.produtos.length)
     res.json(data.produtos);
 });
 
@@ -22,8 +21,17 @@ app.get('/produtos/:estoque', (req, res) => {
             temNoEstoque.push(produto);            
         }
     }
-    console.log(temNoEstoque.length)
     res.json(temNoEstoque)
+});
+
+/* verificar essa rota depois /produto */
+app.get('/produto', (req, res) => {
+    const produtos = data.produtos;
+    const categoria = req.query.categoria;
+
+    const produtosNaCategoria = produtos.filter(produto => produto.categoria === categoria).filter(produto => produto.estoque > 0);
+
+    res.json(produtosNaCategoria);
 });
 
 app.listen(8000);
