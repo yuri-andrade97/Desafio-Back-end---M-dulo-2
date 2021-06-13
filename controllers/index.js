@@ -46,7 +46,6 @@ function listarProdutos(req, res) {
                 }
             }
         });
-        console.log("Filtrar produtos por categoria")
         return res.json(produtosFiltradoPorCategoria);
     }
 
