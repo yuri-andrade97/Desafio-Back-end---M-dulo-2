@@ -1,22 +1,3 @@
 {
-  "subtotal": 2044,
-  "dataDeEntrega": "2021-07-06T01:53:03.493Z",
-  "valorDoFrete": 5000,
-  "totalAPagar": 7044,
-  "produtos": [
-    {
-      "id": 11,
-      "nome": "Oléo de Canola QUALITÁ Pet 900ml",
-      "preco": 1199,
-      "categoria": "Oleo",
-      "quantidade": 1
-    },
-    {
-      "id": 1,
-      "nome": "Pipoca para Microondas Manteiga YOKI 50g",
-      "preco": 169,
-      "categoria": "Bazar",
-      "quantidade": 5
-    }
-  ]
+  "produtos": []
 }
