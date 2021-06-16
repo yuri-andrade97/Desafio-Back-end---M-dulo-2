@@ -2,8 +2,6 @@ const data = require('../data/data.json');
 const { escreverNoArquivo, lerArquivo } = require('../bibliotecaFS');
 const { addBusinessDays } = require('date-fns')
 
-
-
 function listarProdutos(req, res) {
     const produtos = data.produtos;
     const precoInicial = Number(req.query.precoInicial * 100);
@@ -147,7 +145,6 @@ async function deletarProduto(req, res) {
     await escreverNoArquivo(carrinho)
 
     res.json(carrinho)
-    // aqui ainda precisa após retirar o  produto, limpar o subtotal e etc...
 }
 
 async function deletarTodosOsProdutosDoCarrinho(req, res) {
@@ -265,8 +262,6 @@ function calcularValorTotalAPagar(subtotal, frete) {
     const total = subtotal + frete;
     return total;
 }
-/*  FINAL DAS FUNÇÕES AUXILIAR PARA A ROTA POST/CARRINHOS/PRODUTOS */
-
 
 module.exports = {
     listarProdutos,
